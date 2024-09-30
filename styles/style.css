@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* 
+   paleta de cores
+   Verde : #49a09d
+   lilás: #5f2c82
+   */
+
+   *{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif
+   }
