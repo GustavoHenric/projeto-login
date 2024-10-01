@@ -18,18 +18,18 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
                 <form action="login.js" method="post">
-                    <div class="campo">
+                    <div class="campo" id="mail">
                         <span class="material-symbols-outlined">mail</span>
                         <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email">
-                        <label for="ilogin" required maxlength="50">Login</label>
+                        <label for="ilogin" required maxlength="50">login</label>
                     </div>
-                    <div class="campo">
+                    <div class="campo"  id="pass">
                         <span class="material-symbols-outlined">key</span>
                         <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password">
-                        <label for="isenha" required minlength="8">Senha</label>
+                        <label for="isenha" required minlength="8">senha</label>
                     </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">Esqueci a senha</a>
+                    <a href="esqueci.html" class="botao">Esqueci a senha</a>
                 </form>
             </div>
         </section>
