@@ -45,7 +45,7 @@
    }
 
    section#login > div#imagem{
-    background: #5f2c82 url(../images/pexels-kammeran-gonzalez-keola-3137381-26836559.jpg) no-repeat;
+    background: #5f2c82 url(../images/pexels-iriser-4705056.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     display: block;
@@ -54,4 +54,13 @@
    section#login > div#formulario{
     padding: 10px;
     display: block;
+   }
+
+   div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+   }
+
+   div#formulario > p {
+    font-size: 0.8em;
    }
